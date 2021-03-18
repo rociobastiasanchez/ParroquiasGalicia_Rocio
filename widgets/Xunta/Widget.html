@@ -1,0 +1,25 @@
+<div style="background-color: azure;">
+
+  <h3>Búsqueda de Parroquias</h3>
+  <br>
+  <label for="provincias" style="font-size:20px;">Provincia:</label>
+  <select name="provincias" class="form-select" aria-label="Default select example" data-dojo-attach-event="onchange:cargaConcellos" data-dojo-attach-point="selectProvincia">
+    <option value="-1">Seleccione provincia</option>
+    <option value="15">A Coruña</option>
+    <option value="27">Lugo</option>
+    <option value="32">Ourense</option>
+    <option value="36">Pontevedra</option>
+  </select>
+  <br>
+  <label for="concellos" style="font-size:20px;">Concellos:</label>
+  <select name="concellos" class="form-select" aria-label="Default select example" data-dojo-attach-point="selectConcellos" data-dojo-attach-event="onchange:cargaParroquias" style="size: 20px;"></select>
+  <button data-dojo-attach-event="onclick:zoomConcello" class="btn btn-outline-primary">🔍</button>
+  <br>
+  <label for="parroquias" style="font-size:20px;">Parroquias:</label>
+  <select name="parroquias" class="form-select" aria-label="Default select example" data-dojo-attach-point="selectParroquias" style="size: 20px;"></select>
+  <button data-dojo-attach-event="onclick:zoomParroquia" class="btn btn-outline-primary">🔍</button>
+
+  <!-- <p>Service URL: ${config.serviceUrlconcellos}</p>
+  <p>Service URL: ${config.serviceUrlparroquias}</p> -->
+
+</div>
