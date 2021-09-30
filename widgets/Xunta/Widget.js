@@ -45,11 +45,11 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dojo/on', 'dojo/dom', 'dojo/_b
                         this.selectConcellos.add(opcion);
 
                         for (var i = 0; i < result.features.length; i++) {
-                              opcion = document.createElement("option");
-                              console.log(opcion);
-                              opcion.value = result.features[i].attributes.CODCONC;
-                              opcion.text = result.features[i].attributes.CONCELLO;
-                              this.selectConcellos.add(opcion);
+                              opcion2 = document.createElement("option");
+                              console.log(opcion2);
+                              opcion2.value = result.features[i].attributes.CODCONC;
+                              opcion2.text = result.features[i].attributes.CONCELLO;
+                              this.selectConcellos.add(opcion2);
                         };
                   }));
             },

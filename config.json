@@ -226,9 +226,9 @@
         "version": "0.0.1",
         "IsController": false,
         "uri": "widgets/Xunta/Widget",
-        "config": "configs/Xunta/config_widgets_Xunta_Widget_32.json",
-        "index": 5,
-        "id": "widgets_Xunta_Widget_32"
+        "config": "configs/Xunta/config_widgets_Xunta_Widget_33.json",
+        "index": 4,
+        "id": "widgets_Xunta_Widget_33"
       }
     ],
     "groups": []
